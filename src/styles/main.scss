@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.header{
+  text-align: center;
+  padding: 15px 0;
+  background: #69406d;
+}
+.form{
+  margin: 15px auto;
+  max-width: 270px;
+  &-input{
+    margin-right: 15px;
+  }
+ 
+}
+.rowm{
+  margin: 0;
+}
+.recipe{
+  margin-bottom: 50px;
+  &-into{
+    height: 390px;
+    max-height: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    background: #e0dde07a;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  img{
+    object-fit: cover;
+    height: 239px;
+    width: 100%;
+  }
+}
+.active-recipe{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
